@@ -17,7 +17,7 @@ Example : ((A and not (B or C)) or (not D and E)) = ((A & (B | C)) | (D & E))
               /  \
              B    C
 
-the height of this tree is 4 , therfore the height of ((A & (B | C)) | (D & E)) is 4
+the height of this tree is 4 , therfore the height of ((A & ~(B | C)) | (~D & E)) is 4
 
 # Input
 the logical formula
